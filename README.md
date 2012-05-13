@@ -4,27 +4,13 @@
 
 All to embed many type of content directly in your page.
 
-It use [ruby-oembed](https://github.com/judofyr/ruby-oembed). So don't forget to install it.
-
-Add a filter at the compile time to use it:
-
-```ruby
-compile '*' do
-  filter :embed
-  filter :erb
-  layout 'default'
-end
-```
+See [the readme](embed/README.md).
 
 ## Snippet
 
 Show a snippet of one item.
 
-It use [nokogiri](http://nokogiri.org/). So don't forget to install it.
-
-```ruby
-<%= snippet(item) %>
-```
+See [the readme](snippet/README.md).
 
 ## License
 
