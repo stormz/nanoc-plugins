@@ -28,6 +28,8 @@ In your layout:
 <%= snippet(item) %>
 ```
 
+Some options are available. See the code to see all.
+
 ## License
 
 (c) 2012 Stormz
