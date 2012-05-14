@@ -30,6 +30,10 @@ compile '*' do
 end
 ```
 
+## Cache
+
+A cache file *.oembed_cache* is created. It helps you to reduce the compile time. You can ignore it.
+
 ## License
 
 (c) 2012 Stormz
