@@ -12,6 +12,12 @@ Show a snippet of one item.
 
 See the snippet folder.
 
+## Search
+
+Index items using an Indextank compatible API.
+
+See the search folder.
+
 ## License
 
 (c) 2012 Stormz
