@@ -2,10 +2,7 @@
 require 'uri'
 require 'oembed'
 
-skitch = OEmbed::Provider.new("https://skitch.com/oembed")
-skitch << "http://*.skitch.com/*"
-skitch << "https://*.skitch.com/*"
-OEmbed::Providers.register(OEmbed::Providers::Youtube, skitch)
+OEmbed::Providers.register(OEmbed::Providers::Youtube)
 
 class EmbedFilter < Nanoc::Filter
   identifier :embed
